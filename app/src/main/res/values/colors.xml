@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_bg">#ebebeb</color>
+    <color name="app_bg">#4065b1</color>
+    <color name="button_bg">#4065b1</color>
+    <color name="button_pressed">#183b83</color>
+    <color name="button_disable">#b5b6b6</color>
+    <color name="error_bg">#f29107</color>
+    <color name="text_select_bg">#f29107</color>
+    <color name="image_add_pressed">#f29107</color>
+    <color name="waiting_bg">#BEFFFFFF</color>
+    <color name="waiting_text_color">#ff324b9d</color>
+    <color name="bottom_color">#a04065b1</color>
+    <color name="imageview_bg">#91afed</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    
+    <color name="tab_indicator">#4065b1</color>
+    <color name="tab_selectedtext">#4065b1</color>
+</resources>

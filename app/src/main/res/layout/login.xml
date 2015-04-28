@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/login_bg">
+    
+    <LinearLayout android:id="@+id/login_err_vg" 	        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="@dimen/login_edittext_margintop"
+        android:layout_marginLeft="@dimen/login_edittext_marginleft"
+        android:layout_marginRight="@dimen/login_edittext_marginright"
+        android:gravity="center_vertical"
+        android:background="@drawable/login_error_bg"
+        android:orientation="horizontal">
+	    
+        <ImageView android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_margin="5dp"
+	         android:src="@drawable/error_img"
+	         android:contentDescription="@string/login_error_hint" />
+        
+        <TextView 
+            android:id="@+id/login_err_txt"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:gravity="center_vertical"
+	        android:textColor="@android:color/white"
+	        android:layout_margin="5dp"/>
+    </LinearLayout>
+    
+    <LinearLayout 	        
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_edittext_height" 
+        android:layout_marginTop="@dimen/login_edittext_margintop"
+        android:layout_marginLeft="@dimen/login_edittext_marginleft"
+        android:layout_marginRight="@dimen/login_edittext_marginright"
+        android:gravity="center_vertical"
+        android:background="@drawable/login_edit_bg"
+        android:orientation="horizontal">
+        
+        <ImageView android:layout_width="@dimen/login_image_size"
+            android:layout_height="@dimen/login_image_size"
+            android:layout_margin="5dp"
+            android:src="@drawable/login_userimg"
+            android:contentDescription="@string/login_edit_user" />
+        
+	    <EditText
+	        android:id="@+id/loginUser"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_margin="5dp"
+	        android:gravity="center_vertical"
+	        android:background="@android:color/white"
+	        android:hint="@string/login_edit_user"/>
+    
+	</LinearLayout>
+	
+    <LinearLayout 	        
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_edittext_height" 
+        android:layout_marginTop="@dimen/login_edittext_margintop"
+        android:layout_marginLeft="@dimen/login_edittext_marginleft"
+        android:layout_marginRight="@dimen/login_edittext_marginright"
+        android:gravity="center_vertical"
+        android:background="@drawable/login_edit_bg"
+        android:orientation="horizontal">
+	    
+        <ImageView android:layout_width="@dimen/login_image_size"
+            android:layout_height="@dimen/login_image_size"
+            android:layout_margin="5dp"
+            android:src="@drawable/login_pwdimg"
+            android:contentDescription="@string/login_edit_password" />
+        
+	    <EditText
+	        android:id="@+id/loginPwd"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:gravity="center_vertical"
+	        android:background="@android:color/white"
+	        android:inputType="textPassword"
+	        android:layout_margin="5dp"
+	        android:hint="@string/login_edit_password" />
+	</LinearLayout>
+	
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height" 
+        android:layout_marginTop="@dimen/login_button_margintop"
+        android:layout_marginLeft="@dimen/login_button_marginleft"
+        android:layout_marginRight="@dimen/login_button_marginright"
+        android:background="@drawable/button_select"
+        android:textColor="@android:color/white"
+        android:text="@string/login_button_text" />
+    
+
+
+</LinearLayout>

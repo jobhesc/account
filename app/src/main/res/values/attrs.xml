@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AdvanceImageView">
+        <attr name="cornerRadius" format="reference|float"/>
+        <attr name="showCorner" format="boolean"/>
+        <attr name="showCheckBox" format="boolean"/>
+        <attr name="isChecked" format="boolean"/>
+        <attr name="checkBoxSize" format="dimension"/>
+        <attr name="checkBoxPadding" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="ReportCellStyle">
+        <attr name="cellWidth" format="integer|dimension">
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+        <attr name="cellHeight" format="integer|dimension">
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+        <attr name="columnWeight" format="float"/>
+        <attr name="android:gravity"/>
+        <attr name="cellBackground" format="reference|color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension" />
+        <attr name="cellPaddingTop" format="dimension" />
+        <attr name="cellPaddingLeft" format="dimension" />
+        <attr name="cellPaddingBottom" format="dimension" />
+        <attr name="cellPaddingRight" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsSelectedTextColor" format="color" />
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    
+</resources>

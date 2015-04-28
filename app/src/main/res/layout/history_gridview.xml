@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:account="http://schemas.android.com/apk/res/com.ynt.account"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.ynt.account.control.AdvanceImageView
+        android:id="@+id/history_grid_image"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:scaleType="centerCrop"
+        account:showCorner="true"
+        account:cornerRadius="5.0"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/title_activity_history"/>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\workspace\account\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="E:\workspace\account\app\build\intermediates\pre-dexed\debug\classes-951c3ae0366ec32e770c4a0414d292d99e658019.jar" />
+    </item>
+    <item
+        jar="E:\workspace\account\app\libs\sqlcipher.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f53e7a5a6906eb8d00df7e8d05564baba6eba1af">
+        <dex dex="E:\workspace\account\app\build\intermediates\pre-dexed\debug\sqlcipher-df7d3a4687e49fd2a7a3c5d05863b0b94433d56b.jar" />
+    </item>
+    <item
+        jar="D:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\workspace\account\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-39e7d7a4026f5c86f63857bef6339264c95083cd.jar" />
+    </item>
+    <item
+        jar="E:\workspace\account\app\libs\commons-codec.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="722803eff0da4aba432c60fbab3099b209d3df1d">
+        <dex dex="E:\workspace\account\app\build\intermediates\pre-dexed\debug\commons-codec-c950392aaff56ac0f222516c3f21bd2986af3868.jar" />
+    </item>
+    <item
+        jar="E:\workspace\account\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="E:\workspace\account\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-3dcc1b5f3e42192b98bf7ce423ca11e33b6aa0b6.jar" />
+    </item>
+
+</items>

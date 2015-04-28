@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/upload_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.ynt.account.control.NonScrollableGridView 
+        android:id="@+id/upload_list_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:columnWidth="@dimen/image_size"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:verticalSpacing="3dp"
+        android:horizontalSpacing="3dp"
+        android:numColumns="auto_fit"/>
+</LinearLayout>

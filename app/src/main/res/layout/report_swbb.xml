@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/login_bg">
+    
+    <com.ynt.account.control.ReportView 
+        android:id="@+id/report_swbb_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="10dp"
+        android:smoothScrollbar="true" 
+        android:fastScrollEnabled="false"
+        android:scrollingCache="true"
+        android:divider="@null"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"/>
+</LinearLayout>

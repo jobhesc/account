@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <Button android:id="@+id/main_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="@string/main_upload"
+        android:gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/main_upload"
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:textColor="@drawable/main_textfont"/>
+
+    <Button android:id="@+id/main_history"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="@string/main_history"
+        android:gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/main_history"
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:textColor="@drawable/main_textfont"/>
+
+    <Button android:id="@+id/main_report"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="@string/main_report"
+        android:gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/main_report"
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:textColor="@drawable/main_textfont"/>
+    
+    <Button android:id="@+id/main_message"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="@string/main_message"
+        android:gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/main_message"
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:textColor="@drawable/main_textfont"/>
+    
+    <Button android:id="@+id/main_about"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="@string/main_about"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/main_about"
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:textColor="@drawable/main_textfont"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 背景设置为@android:color/transparent，即透明颜色 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/waiting_progress_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5.0dp" >
+        <ProgressBar android:background="@drawable/loading_bg" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dp"
+            android:indeterminate="false"
+            android:indeterminateOnly="true"
+            android:indeterminateDrawable="@drawable/waiting_progress_loading"/>
+        <TextView android:textSize="@dimen/waiting_text_size"
+            android:textColor="@color/waiting_text_color"
+            android:gravity="center"
+            android:id="@+id/waiting_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:singleLine="true"/>
+    </LinearLayout>
+
+</RelativeLayout>

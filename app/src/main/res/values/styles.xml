@@ -1,0 +1,80 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    
+	<!-- 绛夊緟绐楀彛鏍峰紡 -->
+    <style name="waiting_progress" parent="@android:style/Theme.Dialog">
+        <!-- 鑳屾櫙璁剧疆涓洪�忔槑棰滆壊 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- Dialog鐨剋indowFrame妗嗕负鏃� --> 
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog鏃犳爣棰樻爮 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 鏄惁娴幇鍦ˋctivity涓� -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 鎺у埗Activity鍒囨崲鏃讹紝鏄惁鏈夊姩鐢绘晥鏋滐紝杩欓噷璁惧畾涓簍rue锛屽嵆鍔ㄧ敾鏁堟灉娑堝け -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 瀵硅瘽妗嗘槸鍚︽湁閬洊 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 鏄惁鍚敤鑳屾櫙閬洊鎺у埗,鍗砫imAmount鐨勮缃槸鍚︾敓鏁� -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- 寮瑰嚭绐楀彛鏍峰紡 -->
+    <style name="ynt_dialog" parent="@android:style/Theme.Dialog">
+        <!-- 鑳屾櫙璁剧疆涓洪�忔槑棰滆壊 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- Dialog鐨剋indowFrame妗嗕负鏃� --> 
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog鏃犳爣棰樻爮 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 鏄惁娴幇鍦ˋctivity涓� -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 鎺у埗Activity鍒囨崲鏃讹紝鏄惁鏈夊姩鐢绘晥鏋滐紝杩欓噷璁惧畾涓簍rue锛屽嵆鍔ㄧ敾鏁堟灉娑堝け -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 瀵硅瘽妗嗘槸鍚︽湁閬洊 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 鏄惁鍚敤鑳屾櫙閬洊鎺у埗,鍗砫imAmount鐨勮缃槸鍚︾敓鏁� -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="report_head" >
+        <item name="cellWidth">0dp</item>
+        <item name="cellHeight">wrap_content</item>
+        <item name="columnWeight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="cellBackground">@drawable/report_head_bg</item>
+        <item name="textColor">@android:color/black</item>
+        <item name="textSize">10sp</item>
+        <item name="cellPaddingTop">10dp</item>
+        <item name="cellPaddingLeft">2dp</item>
+        <item name="cellPaddingBottom">10dp</item>
+        <item name="cellPaddingRight">2dp</item>
+    </style>
+    <style name="report_body" >
+        <item name="cellWidth">0dp</item>
+        <item name="cellHeight">wrap_content</item>
+        <item name="columnWeight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="cellBackground">@drawable/report_body_bg</item>
+        <item name="textColor">@android:color/black</item>
+        <item name="textSize">10sp</item>
+        <item name="cellPaddingTop">10dp</item>
+        <item name="cellPaddingLeft">2dp</item>
+        <item name="cellPaddingBottom">10dp</item>
+        <item name="cellPaddingRight">2dp</item>        
+    </style>    
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bg">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	    android:layout_margin="10dp"
+	    android:orientation="vertical">
+	    
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="@dimen/msg_text_size"
+			    android:text="@string/message_dealstatus"/> 
+			<TextView android:id="@+id/message_dealstatus"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="@dimen/msg_text_size"
+			    android:text=""/>  			               
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+			<TextView android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="@dimen/msg_text_size"
+			    android:text="@string/message_returntime"/> 
+			<TextView android:id="@+id/message_returntime"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="@dimen/msg_text_size"
+			    android:text=""/>  			               
+        </LinearLayout>   
+		<TextView android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+			android:textSize="@dimen/msg_text_size"
+		    android:text="@string/message_questiondesc"/>   
+		<TextView android:id="@+id/message_questiondesc"
+		    android:layout_width="match_parent"
+		    android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+			android:textSize="@dimen/msg_text_size"
+		    android:background="@drawable/login_edit_bg"/>	
+		<TextView android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+			android:textSize="@dimen/msg_text_size"
+		    android:text="@string/message_badimage"/>  	
+	   <GridView
+	       android:id="@+id/message_badimage"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+	       android:cacheColorHint="@android:color/transparent"
+	       android:listSelector="@android:color/transparent"
+	       android:columnWidth="@dimen/image_size"
+	       android:stretchMode="columnWidth"
+	       android:gravity="center"
+	       android:verticalSpacing="3dp"
+	       android:horizontalSpacing="3dp"
+	       android:numColumns="auto_fit"/>
+		<TextView android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+			android:textSize="@dimen/msg_text_size"
+		    android:text="@string/message_newimage"/> 
+	   <GridView
+	       android:id="@+id/message_newimage"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+	       android:cacheColorHint="@android:color/transparent"
+	       android:listSelector="@android:color/transparent"
+	       android:columnWidth="@dimen/image_size"
+	       android:stretchMode="columnWidth"
+	       android:gravity="center"
+	       android:verticalSpacing="3dp"
+	       android:horizontalSpacing="3dp"
+	       android:numColumns="auto_fit"/>	    				    	    	               
+    </LinearLayout>
+    
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bottom_color"
+        android:layout_alignParentBottom="true"> 
+        
+        <Button
+	        android:id="@+id/upload_submit"
+	        android:layout_width="100dp"
+	        android:layout_height="match_parent" 
+	        android:layout_marginTop="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:layout_centerInParent="true"
+	        android:background="@drawable/button_select"
+	        android:textColor="@android:color/white"
+	        android:text="@string/upload_submit_text" />
+    </RelativeLayout>	
+</RelativeLayout>

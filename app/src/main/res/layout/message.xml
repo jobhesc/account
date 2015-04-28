@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:account="http://schemas.android.com/apk/res/com.ynt.account"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.ynt.account.control.PagerSlidingTabStrip
+        android:id="@+id/msg_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" 
+        account:pstsShouldExpand="true"
+        account:pstsDividerColor="@android:color/transparent"
+        account:pstsUnderlineHeight="1dp" 
+        account:pstsIndicatorHeight="4dp"
+        android:textSize="16sp"
+        account:pstsSelectedTextColor="@color/tab_selectedtext"
+        account:pstsIndicatorColor="@color/tab_indicator"
+        account:pstsTabBackground="@android:color/transparent" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/msg_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msg_tabs" />
+
+</RelativeLayout>

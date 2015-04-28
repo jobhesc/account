@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ynt.account"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.ynt.account.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ynt.account.GuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.ynt.account.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ynt.account.RegisterActivity"
+            android:label="@string/title_activity_reg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ynt.account.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.ynt.account.UploadActivity"
+            android:label="@string/title_activity_upload"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ynt.account.ImageSelActivity"
+            android:label="@string/title_activity_imagesel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ynt.account.ImageViewActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ynt.account.ImageView2Activity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait" >
+        </activity>   
+        <activity
+            android:name="com.ynt.account.ImageView3Activity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait" >
+        </activity>              
+        <activity
+            android:name="com.ynt.account.HistoryActivity"
+            android:label="@string/title_activity_history"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ynt.account.ReportMainActivity"
+            android:label="@string/title_activity_report"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ynt.account.ReportZCFZActivity"
+            android:label="@string/title_activity_report_zcfz"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ynt.account.ReportLRBActivity"
+            android:label="@string/title_activity_report_lrb"
+            android:screenOrientation="portrait" >            
+        </activity>   
+        <activity
+            android:name="com.ynt.account.ReportXjllActivity"
+            android:label="@string/title_activity_report_xjll"
+            android:screenOrientation="portrait" >            
+        </activity>  
+        <activity
+            android:name="com.ynt.account.ReportMXBActivity"
+            android:label="@string/title_activity_report_mxb"
+            android:screenOrientation="portrait" >            
+        </activity>   
+		<activity
+            android:name="com.ynt.account.ReportSWBBActivity"
+            android:label="@string/title_activity_report_swbb"
+            android:screenOrientation="portrait" >            
+        </activity>  
+		<activity
+            android:name="com.ynt.account.MessageActivity"
+            android:label="@string/title_activity_message"
+            android:screenOrientation="portrait" >            
+        </activity>          
+		<activity
+            android:name="com.ynt.account.ImgMessageDetailActivity"
+            android:label="@string/title_activity_imgmessage"
+            android:screenOrientation="portrait" >            
+        </activity>   
+		<activity
+            android:name="com.ynt.account.SysMessageDetailActivity"
+            android:label="@string/title_activity_sysmessage"
+            android:screenOrientation="portrait" >            
+        </activity>                 
+    </application>
+
+</manifest>

@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:account="http://schemas.android.com/apk/res/com.ynt.account"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/login_bg">
+    
+    <LinearLayout	        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+	    
+        <com.ynt.account.control.AdvanceImageView 
+             android:id="@+id/report_zcfz"
+             android:layout_width="150dp"
+	         android:layout_height="150dp"
+	         android:layout_margin="10dp"
+	         account:showCorner="true"
+        	 account:cornerRadius="5.0"
+	         android:src="@drawable/report_zcfz"
+	         android:contentDescription="@string/title_activity_report" />
+        	
+		<com.ynt.account.control.AdvanceImageView
+             android:id="@+id/report_lrb"
+		    android:layout_width="150dp"
+		    android:layout_height="150dp"
+		    android:layout_margin="10dp"
+		    account:cornerRadius="5.0"
+		    account:showCorner="true"
+		    android:contentDescription="@string/title_activity_report"
+		    android:src="@drawable/report_lrb" />
+        
+    </LinearLayout>
+	<LinearLayout	        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center"
+        android:orientation="horizontal">
+	    
+        <com.ynt.account.control.AdvanceImageView 
+             android:id="@+id/report_swbb"
+             android:layout_width="150dp"
+	         android:layout_height="150dp"
+	         android:layout_margin="10dp"
+	         account:showCorner="true"
+        	 account:cornerRadius="5.0"
+	         android:src="@drawable/report_swbb"
+	         android:contentDescription="@string/title_activity_report" />
+        
+		<com.ynt.account.control.AdvanceImageView 
+             android:id="@+id/report_xjll"
+             android:layout_width="150dp"
+	         android:layout_height="150dp"
+	         android:layout_margin="10dp"
+	         account:showCorner="true"
+        	 account:cornerRadius="5.0"
+	         android:src="@drawable/report_xjll"
+	         android:contentDescription="@string/title_activity_report" />        
+    </LinearLayout>
+    <LinearLayout	        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center"
+        android:orientation="horizontal">
+
+		<com.ynt.account.control.AdvanceImageView 
+             android:id="@+id/report_mxb"
+             android:layout_width="320dp"
+	         android:layout_height="160dp"
+	         android:layout_margin="10dp"
+	         account:showCorner="true"
+        	 account:cornerRadius="5.0"
+	         android:src="@drawable/report_mxb"
+	         android:contentDescription="@string/title_activity_report" />
+		
+	</LinearLayout>
+</LinearLayout>
